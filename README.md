@@ -61,7 +61,7 @@ Example flagged transaction:
 | anomaly_score | 0.0818 |
 | explanation | unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category |
 
-##Visualization
+## Visualization
 
 The plot below shows the anomaly score versus the transaction amount. Higher anomaly scores indicate more unusual transactions according to the Isolation Forest model.
 

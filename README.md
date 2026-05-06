@@ -49,13 +49,19 @@ Flagged transactions also receive simple explanations, for example:
 - foreign country transaction
 - unusual merchant category
 
-Example output structure:
+Example flagged transaction:
 
-| transaction_id | amount_eur | transaction_hour | country | merchant_category | anomaly_score | explanation |
-|---|---:|---:|---|---|---:|---|
-| TXN_ANOM_00043 | 1382.78 | 23 | BR | cash_withdrawal | 0.0818 | unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category |
+| Field | Value |
+|---|---|
+| transaction_id | TXN_ANOM_00043 |
+| amount_eur | 1382.78 |
+| transaction_hour | 23 |
+| country | BR |
+| merchant_category | cash_withdrawal |
+| anomaly_score | 0.0818 |
+| explanation | unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category |
 
-## Visualization
+##Visualization
 
 The plot below shows the anomaly score versus the transaction amount. Higher anomaly scores indicate more unusual transactions according to the Isolation Forest model.
 

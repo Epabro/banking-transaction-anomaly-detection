@@ -1,3 +1,4 @@
+cat > README.md <<'EOF'
 # Banking Transaction Anomaly Detection
 
 This project demonstrates a compact end-to-end data science workflow for detecting unusual patterns in synthetic banking transaction data.
@@ -96,6 +97,8 @@ banking-transaction-anomaly-detection/
     ├── anomaly_amount_distribution.png
     ├── anomaly_amount_distribution_log.png
     └── anomaly_score_vs_amount.png
+```
+
 ## Tech Stack
 
 - Python
@@ -140,3 +143,4 @@ This project reflects core skills relevant for data science in banking:
 ## Disclaimer
 
 All data in this project is synthetic. No real customer, banking or transaction data is used.
+EOF

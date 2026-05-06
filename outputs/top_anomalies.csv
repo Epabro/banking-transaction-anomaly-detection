@@ -1,0 +1,26 @@
+transaction_id,customer_id,amount_eur,transaction_hour,country,merchant_category,anomaly_score,explanation,is_synthetic_anomaly
+TXN_ANOM_00043,CUST_0017,1382.78,23,BR,cash_withdrawal,0.08181000022047435,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00002,CUST_0179,1559.34,23,US,luxury_goods,0.08050178739674596,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00025,CUST_0248,5508.24,23,US,luxury_goods,0.07529100803647126,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00018,CUST_0068,2470.64,23,BR,cash_withdrawal,0.0742530761397645,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00009,CUST_0047,4585.58,23,US,cash_withdrawal,0.07088948092422187,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00033,CUST_0085,1203.13,0,AE,cash_withdrawal,0.033621133820483484,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00012,CUST_0005,2134.13,4,US,luxury_goods,0.03263955032391286,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00016,CUST_0026,6414.66,4,US,unknown_merchant,0.029702756778831607,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00023,CUST_0218,8250.83,3,BR,unknown_merchant,0.0294079278525452,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00027,CUST_0109,1542.27,0,JP,luxury_goods,0.02897041931001365,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00000,CUST_0210,1272.62,1,JP,electronics,0.02897041931001365,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00015,CUST_0099,1567.08,0,SG,cash_withdrawal,0.0272140395466538,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00026,CUST_0078,1593.96,0,BR,cash_withdrawal,0.02697068624442789,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00035,CUST_0023,1818.15,3,US,electronics,0.025026820679216688,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00003,CUST_0249,5442.25,4,BR,unknown_merchant,0.024107117316491844,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00034,CUST_0091,7485.95,2,BR,luxury_goods,0.02139622183410228,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00041,CUST_0045,8718.54,0,JP,cash_withdrawal,0.019453205162687337,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00011,CUST_0039,8263.54,1,BR,unknown_merchant,0.01922668918025572,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00005,CUST_0215,4892.79,4,BR,electronics,0.019035940118065753,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00021,CUST_0243,8331.86,0,US,unknown_merchant,0.018731264476774978,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00037,CUST_0072,4212.64,4,JP,cash_withdrawal,0.01687358274000572,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00024,CUST_0046,3701.17,4,US,unknown_merchant,0.01687358274000572,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00020,CUST_0016,7856.49,0,SG,luxury_goods,0.01680966748479651,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00007,CUST_0248,7976.65,0,AE,electronics,0.016569833315164706,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1
+TXN_ANOM_00017,CUST_0202,7929.61,0,AE,luxury_goods,0.016330080266069524,unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category,1

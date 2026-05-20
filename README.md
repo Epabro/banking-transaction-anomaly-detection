@@ -150,3 +150,73 @@ This project reflects core skills relevant for data science in banking:
 
 All data in this project is synthetic. No real customer, banking or transaction data is used.
 EOF
+
+## SQL Data Quality and Reporting Module
+
+This project also includes a small SQL module for validating and reporting on the scored transaction data.
+
+The SQL scripts are located in:
+
+```text
+sql/
+```
+
+They cover:
+
+- schema creation for scored transaction data
+- SQL-based data quality checks
+- duplicate and completeness checks
+- plausibility checks for transaction values and timestamps
+- anomaly-rate reporting by country and merchant category
+- customer-level aggregations using CTEs
+- high-value transaction checks compared to customer averages
+
+Example commands:
+
+```bash
+sqlite3 db/banking_transactions.db ".read sql/01_schema.sql"
+sqlite3 db/banking_transactions.db ".mode csv" ".import --skip 1 outputs/transactions_scored.csv transactions_scored"
+sqlite3 -header -column db/banking_transactions.db < sql/02_data_quality_checks.sql
+sqlite3 -header -column db/banking_transactions.db < sql/03_reporting_queries.sql
+```
+
+For details, see:
+
+```text
+sql/README_SQL.md
+```
+
+## SQL Data Quality and Reporting Module
+
+This project also includes a small SQL module for validating and reporting on the scored transaction data.
+
+The SQL scripts are located in:
+
+```text
+sql/
+```
+
+They cover:
+
+- schema creation for scored transaction data
+- SQL-based data quality checks
+- duplicate and completeness checks
+- plausibility checks for transaction values and timestamps
+- anomaly-rate reporting by country and merchant category
+- customer-level aggregations using CTEs
+- high-value transaction checks compared to customer averages
+
+Example commands:
+
+```bash
+sqlite3 db/banking_transactions.db ".read sql/01_schema.sql"
+sqlite3 db/banking_transactions.db ".mode csv" ".import --skip 1 outputs/transactions_scored.csv transactions_scored"
+sqlite3 -header -column db/banking_transactions.db < sql/02_data_quality_checks.sql
+sqlite3 -header -column db/banking_transactions.db < sql/03_reporting_queries.sql
+```
+
+For details, see:
+
+```text
+sql/README_SQL.md
+```

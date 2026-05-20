@@ -1,0 +1,104 @@
+total_transactions,unique_customers,total_volume_eur,average_amount_eur,max_amount_eur,model_anomalies,anomaly_rate_percent
+1545,250,273242.8,176.86,8718.54,47,3.04
+country,transaction_count,total_volume_eur,average_amount_eur,model_anomalies,anomaly_rate_percent
+DE,1235,47976.46,38.85,1,0.08
+AE,9,47188.96,5243.22,8,88.89
+SG,8,44175.96,5521.99,8,100.0
+BR,9,43623.46,4847.05,9,100.0
+US,10,41973.02,4197.3,10,100.0
+JP,9,37057.83,4117.54,8,88.89
+FR,94,4166.16,44.32,1,1.06
+AT,48,2332.07,48.58,0,0.0
+NL,47,1820.9,38.74,1,2.13
+ES,41,1626.98,39.68,1,2.44
+IT,35,1301.0,37.17,0,0.0
+merchant_category,transaction_count,total_volume_eur,average_amount_eur,model_anomalies,anomaly_rate_percent
+unknown_merchant,14,80178.65,5727.05,14,100.0
+luxury_goods,11,54741.61,4976.51,9,81.82
+cash_withdrawal,11,43335.56,3939.6,11,100.0
+electronics,9,35763.41,3973.71,9,100.0
+groceries,372,15755.63,42.35,0,0.0
+restaurant,304,11732.81,38.59,2,0.66
+online_retail,259,10559.13,40.77,1,0.39
+transport,277,9957.88,35.95,0,0.0
+utilities,185,7325.13,39.6,1,0.54
+travel,103,3892.99,37.8,0,0.0
+customer_id,transaction_count,total_volume_eur,average_amount_eur,model_anomalies
+CUST_0248,10,13714.1,1371.41,2
+CUST_0108,11,10511.22,955.57,2
+CUST_0045,6,8831.97,1472.0,1
+CUST_0243,7,8677.41,1239.63,1
+CUST_0039,5,8393.69,1678.74,1
+CUST_0202,10,8380.41,838.04,1
+CUST_0218,4,8359.91,2089.98,1
+CUST_0016,7,8198.35,1171.19,1
+CUST_0091,9,7693.74,854.86,1
+CUST_0056,4,7620.32,1905.08,1
+customer_id,transaction_count,total_volume_eur,average_amount_eur,model_anomalies,anomaly_rate_percent
+CUST_0138,4,4760.94,1190.23,2,50.0
+CUST_0248,10,13714.1,1371.41,2,20.0
+CUST_0108,11,10511.22,955.57,2,18.18
+CUST_0089,12,6985.64,582.14,2,16.67
+CUST_0112,15,4243.46,282.9,2,13.33
+CUST_0030,2,4723.07,2361.53,1,50.0
+CUST_0210,2,1281.87,640.93,1,50.0
+CUST_0168,3,3564.54,1188.18,1,33.33
+CUST_0109,3,1642.68,547.56,1,33.33
+CUST_0218,4,8359.91,2089.98,1,25.0
+CUST_0056,4,7620.32,1905.08,1,25.0
+CUST_0042,4,4757.4,1189.35,1,25.0
+CUST_0072,4,4357.51,1089.38,1,25.0
+CUST_0070,4,3399.92,849.98,1,25.0
+CUST_0017,4,1535.88,383.97,1,25.0
+CUST_0039,5,8393.69,1678.74,1,20.0
+CUST_0225,5,6149.18,1229.84,1,20.0
+CUST_0220,5,2797.29,559.46,1,20.0
+CUST_0078,5,1754.03,350.81,1,20.0
+CUST_0045,6,8831.97,1472.0,1,16.67
+transaction_id,customer_id,amount_eur,customer_avg_amount,amount_vs_customer_average,country,merchant_category,is_model_anomaly,anomaly_score
+TXN_ANOM_00040,CUST_0112,3701.55,282.9,13.08,JP,cash_withdrawal,1,0.0004
+TXN_ANOM_00032,CUST_0089,6425.64,582.14,11.04,SG,luxury_goods,1,0.0129
+TXN_ANOM_00024,CUST_0046,3701.17,364.63,10.15,US,unknown_merchant,1,0.0169
+TXN_ANOM_00017,CUST_0202,7929.61,838.04,9.46,AE,luxury_goods,1,0.0163
+TXN_ANOM_00003,CUST_0249,5442.25,579.21,9.4,BR,unknown_merchant,1,0.0241
+TXN_ANOM_00013,CUST_0037,5349.08,573.33,9.33,SG,luxury_goods,1,0.0077
+TXN_ANOM_00034,CUST_0091,7485.95,854.86,8.76,BR,luxury_goods,1,0.0214
+TXN_ANOM_00009,CUST_0047,4585.58,545.32,8.41,US,cash_withdrawal,1,0.0709
+TXN_ANOM_00018,CUST_0068,2470.64,298.37,8.28,BR,cash_withdrawal,1,0.0743
+TXN_ANOM_00004,CUST_0230,3840.72,469.87,8.17,BR,unknown_merchant,1,0.004
+TXN_ANOM_00033,CUST_0085,1203.13,149.42,8.05,AE,cash_withdrawal,1,0.0336
+TXN_ANOM_00010,CUST_0108,7591.54,955.57,7.94,SG,unknown_merchant,1,0.0139
+TXN_ANOM_00005,CUST_0215,4892.79,630.67,7.76,BR,electronics,1,0.019
+TXN_ANOM_00002,CUST_0179,1559.34,214.25,7.28,US,luxury_goods,1,0.0805
+TXN_ANOM_00016,CUST_0026,6414.66,943.09,6.8,US,unknown_merchant,1,0.0297
+TXN_ANOM_00021,CUST_0243,8331.86,1239.63,6.72,US,unknown_merchant,1,0.0187
+TXN_ANOM_00020,CUST_0016,7856.49,1171.19,6.71,SG,luxury_goods,1,0.0168
+TXN_ANOM_00028,CUST_0012,6818.91,1017.53,6.7,AE,unknown_merchant,1,0.0099
+TXN_ANOM_00039,CUST_0003,3968.96,610.8,6.5,JP,luxury_goods,0,-0.003
+TXN_ANOM_00030,CUST_0123,3199.08,493.64,6.48,SG,electronics,1,0.0015
+is_night_transaction,is_foreign_country,transaction_count,total_volume_eur,model_anomalies,anomaly_rate_percent
+1,1,59,214750.96,46,77.97
+1,0,62,2359.11,1,1.61
+0,0,1173,45617.35,0,0.0
+0,1,251,10515.38,0,0.0
+transaction_id,customer_id,amount_eur,transaction_hour,country,merchant_category,is_model_anomaly,anomaly_score,explanation
+TXN_ANOM_00043,CUST_0017,1382.78,23,BR,cash_withdrawal,1,0.0818,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00002,CUST_0179,1559.34,23,US,luxury_goods,1,0.0805,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00025,CUST_0248,5508.24,23,US,luxury_goods,1,0.0753,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00018,CUST_0068,2470.64,23,BR,cash_withdrawal,1,0.0743,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00009,CUST_0047,4585.58,23,US,cash_withdrawal,1,0.0709,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00033,CUST_0085,1203.13,0,AE,cash_withdrawal,1,0.0336,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00012,CUST_0005,2134.13,4,US,luxury_goods,1,0.0326,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00016,CUST_0026,6414.66,4,US,unknown_merchant,1,0.0297,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00023,CUST_0218,8250.83,3,BR,unknown_merchant,1,0.0294,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00027,CUST_0109,1542.27,0,JP,luxury_goods,1,0.029,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00000,CUST_0210,1272.62,1,JP,electronics,1,0.029,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00015,CUST_0099,1567.08,0,SG,cash_withdrawal,1,0.0272,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00026,CUST_0078,1593.96,0,BR,cash_withdrawal,1,0.027,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00035,CUST_0023,1818.15,3,US,electronics,1,0.025,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00003,CUST_0249,5442.25,4,BR,unknown_merchant,1,0.0241,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00034,CUST_0091,7485.95,2,BR,luxury_goods,1,0.0214,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00041,CUST_0045,8718.54,0,JP,cash_withdrawal,1,0.0195,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00011,CUST_0039,8263.54,1,BR,unknown_merchant,1,0.0192,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00005,CUST_0215,4892.79,4,BR,electronics,1,0.019,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
+TXN_ANOM_00021,CUST_0243,8331.86,0,US,unknown_merchant,1,0.0187,"unusually high amount; transaction at uncommon hour; foreign country transaction; unusual merchant category"
